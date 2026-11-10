@@ -1,1 +1,48 @@
-{"numFound":46507,"start":0,"numFoundExact":true,"num_found":46507,"documentation_url":"https://openlibrary.org/dev/docs/api/search","q":"climate","offset":null,"docs":[{"author_name":["Baruch Givoni"],"first_publish_year":1969,"key":"/works/OL2682054W","title":"Man, climate and architecture"},{"first_publish_year":1946,"key":"/works/OL17526448M","title":"Spas and climatic health resorts of Czechoslovakia"},{"author_name":["Nancy Mitford"],"first_publish_year":1949,"key":"/works/OL2233712W","title":"Love in a cold climate"},{"author_name":["Naomi Klein"],"first_publish_year":2013,"key":"/works/OL17062332W","title":"This Changes Everything"},{"author_name":["Edward Aguado"],"first_publish_year":1999,"key":"/works/OL1978705W","title":"Understanding weather and climate"}]}
+{
+    "numFound": 46507,
+    "start": 0,
+    "numFoundExact": true,
+    "num_found": 46507,
+    "documentation_url": "https://openlibrary.org/dev/docs/api/search",
+    "q": "climate",
+    "offset": null,
+    "docs": [
+        {
+            "author_name": [
+                "Baruch Givoni"
+            ],
+            "first_publish_year": 1969,
+            "key": "/works/OL2682054W",
+            "title": "Man, climate and architecture"
+        },
+        {
+            "first_publish_year": 1946,
+            "key": "/works/OL17526448M",
+            "title": "Spas and climatic health resorts of Czechoslovakia"
+        },
+        {
+            "author_name": [
+                "Nancy Mitford"
+            ],
+            "first_publish_year": 1949,
+            "key": "/works/OL2233712W",
+            "title": "Love in a cold climate"
+        },
+        {
+            "author_name": [
+                "Naomi Klein"
+            ],
+            "first_publish_year": 2013,
+            "key": "/works/OL17062332W",
+            "title": "This Changes Everything"
+        },
+        {
+            "author_name": [
+                "Edward Aguado"
+            ],
+            "first_publish_year": 1999,
+            "key": "/works/OL1978705W",
+            "title": "Understanding weather and climate"
+        }
+    ]
+}

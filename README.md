@@ -1,2 +1,9 @@
 # Notebook 4
 ## Adrian
+
+Answer:
+1. The difference between live and archived data is that archived data, or the fixture, is a saved snapshot of the data, while the live data is the current version of the API. For example, in the keys of the charizard dictionary retrieved, there is past_abilities, past_stats that were from previous generations of Pokemon. If a user back then retrieved a fixture, it would have that data, but the correct data has changed over time. It's the difference between a screenshot on your computer vs. the current state of it. Since Charizard's stats is basically engrained since it's a very default pokemon, it barely changes between live and my archived data.
+
+2. Misleading is an interesting word. I think there are two types of failures, one like timeout and HTTP status, where it's very easily recognizable and will completely crash the code, and the other being a more quiet one that is not easily noticable by a complete error. Even if some keys were missing, the code would still run properly, but the data is wrong. Therefore, I think the validate_pokemon_payload and validate_type_payload is the most crucial check for the most misleading or quiet failure, to make sure all the expected keys like stats were present. 
+
+3. As we discussed in class, PokeAPI is free and no API key is required. If everyone in the world kept on requesting live data every time they reran a cell, the traffic is unnecessary and will cost the API a lot of money. For the reproducibility part, someone else can run my code and get exactly the same data I got, even if the API changes or shuts down.
